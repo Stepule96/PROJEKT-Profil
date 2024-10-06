@@ -16,4 +16,25 @@ html { box-sizing: border-box; }
 
 body {
 	background-color: #bdc3c7;
+	color: #bdc3c7;
+	margin: 0;
+
+}
+
+.profil{
+	width: 300px;
+	background: #31363b;
+	margin-top: 20px;
+	margin-left: 20px;
+	position: absolute;
+
+}
+
+.foto{
+	width: 300px;
+}
+
+.jmeno{
+	margin-top: 0;
+	color: white;
 }
