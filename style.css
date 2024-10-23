@@ -18,6 +18,9 @@ body {
 	background-color: #bdc3c7;
 	color: #bdc3c7;
 	margin: 0;
+	font-family: "Roboto", sans-serif;
+	font-size: 17px;
+
 
 }
 
@@ -27,6 +30,7 @@ body {
 	margin-top: 20px;
 	margin-left: 20px;
 	position: absolute;
+	box-shadow: 5px 5px 8px gray;
 
 }
 
@@ -38,3 +42,59 @@ body {
 	margin-top: 0;
 	color: white;
 }
+
+.obsah{
+	padding: 20px;
+}
+
+
+.logo{
+	border-radius: 50%;
+	background-color: #b92e81;
+	position: absolute;
+	right: 25px;
+	top: 175px;	
+}
+
+a{
+	text-decoration: none;
+	display: block;
+	color: #bdc3c7;
+	text-transform: uppercase;
+	padding: 10px;
+}
+
+ul li{
+
+	background-color:#31363b;
+	border: 1px solid #3f464d;
+	text-align: center;
+
+
+}
+
+.facebook:hover{
+	background-color: #3b5998;
+
+}
+
+.portfolio:hover{
+	background-color: #e74c3c;
+
+}
+
+.twitter:hover{
+	background-color: #1da1f2;
+}
+
+a:hover{
+	color:white;
+}
+
+.odkazy{
+	margin: 0;
+	padding: 0;
+
+}
+
+
