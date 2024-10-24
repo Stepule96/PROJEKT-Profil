@@ -56,31 +56,56 @@ body {
 	top: 175px;	
 }
 
-a{
+.odkazy a {
 	text-decoration: none;
-	display: block;
 	color: #bdc3c7;
 	text-transform: uppercase;
-	padding: 10px;
+	
+
 }
 
-ul li{
+.portfolio a{
+	display:block;
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+
+
+
+.odkazy .twitter,
+.odkazy .facebook{  
+	display: inline-block;
+}
+
+li .portfolio{
+	display: block;
+}
+
+.facebook a,
+.twitter a{
+	display: inline-block;
+	padding: 10px 35px 10px 35px;
+}
+
+.odkazy li{
 
 	background-color:#31363b;
 	border: 1px solid #3f464d;
 	text-align: center;
+}
 
-
+.odkazy{
+	margin: 0;
+	padding: 0;
+	text-align: center;
 }
 
 .facebook:hover{
 	background-color: #3b5998;
-
 }
 
 .portfolio:hover{
 	background-color: #e74c3c;
-
 }
 
 .twitter:hover{
@@ -91,10 +116,5 @@ a:hover{
 	color:white;
 }
 
-.odkazy{
-	margin: 0;
-	padding: 0;
-
-}
 
 
