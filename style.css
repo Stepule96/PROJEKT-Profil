@@ -60,8 +60,6 @@ body {
 	text-decoration: none;
 	color: #bdc3c7;
 	text-transform: uppercase;
-	
-
 }
 
 .portfolio a{
@@ -71,33 +69,32 @@ body {
 }
 
 
-
-.odkazy .twitter,
-.odkazy .facebook{  
+ul .facebook,
+ul .twitter{
 	display: inline-block;
+	
 }
 
-li .portfolio{
-	display: block;
-}
-
-.facebook a,
-.twitter a{
+.fb,
+.tw{
 	display: inline-block;
-	padding: 10px 35px 10px 35px;
+	padding: 10px 34px;
+
+
 }
 
 .odkazy li{
-
 	background-color:#31363b;
 	border: 1px solid #3f464d;
 	text-align: center;
+	
 }
+
 
 .odkazy{
 	margin: 0;
 	padding: 0;
-	text-align: center;
+
 }
 
 .facebook:hover{
