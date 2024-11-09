@@ -16,11 +16,7 @@ html { box-sizing: border-box; }
 
 body {
 	background-color: #bdc3c7;
-	color: #bdc3c7;
-	margin: 0;
-	font-family: "Roboto", sans-serif;
-	font-size: 17px;
-
+	margin:0
 
 }
 
@@ -29,88 +25,99 @@ body {
 	background: #31363b;
 	margin-top: 20px;
 	margin-left: 20px;
-	position: absolute;
-	box-shadow: 5px 5px 8px gray;
+	box-shadow: 0 3px 8px rgba(0, 0, 0, 0.5);
+	color: #bdc3c7;
+	font-family: "Source Sans Pro", sans-serif;
+	font-size: 17px;
 
+}
+
+.hlavicka{
+	position: relative;
 }
 
 .foto{
-	width: 300px;
+	width: 100%;
+	height: auto;
+	display: block;
 }
-
-.jmeno{
-	margin-top: 0;
-	color: white;
-}
-
-.obsah{
-	padding: 20px;
-}
-
 
 .logo{
 	border-radius: 50%;
 	background-color: #b92e81;
 	position: absolute;
 	right: 25px;
-	top: 175px;	
+	bottom: -25px;	
+	box-shadow: 0 3px 8px rgba(0, 0, 0, 0.5);
 }
 
-.odkazy a {
-	text-decoration: none;
-	color: #bdc3c7;
-	text-transform: uppercase;
+.obsah{
+	padding: 30px 20px 20px 20px;
 }
 
-.portfolio a{
-	display:block;
-	padding-top: 10px;
-	padding-bottom: 10px;
-}
-
-
-ul .facebook,
-ul .twitter{
-	display: inline-block;
-	
-}
-
-.fb,
-.tw{
-	display: inline-block;
-	padding: 10px 34px;
-
-
-}
-
-.odkazy li{
-	background-color:#31363b;
-	border: 1px solid #3f464d;
-	text-align: center;
-	
-}
 
 
 .odkazy{
 	margin: 0;
 	padding: 0;
+	list-style: none;
 
 }
 
-.facebook:hover{
+
+.jmeno{
+	margin-top: 0;
+	color: white;
+}
+
+
+.odkazy li{
+	display:inline-block
+	
+}
+
+
+.odkazy a {
+	text-decoration: none;
+	color: #bdc3c7;
+	text-transform: uppercase;
+	display:block;
+	padding: 10px;
+	text-align: center;
+}
+
+
+.portfolio{
+	width: 100%;
+	border-top: 1px solid #3f464d;
+	border-bottom: 1px solid #3f464d;
+}
+
+.facebook{
+	width: 50%;
+	border-right: 1px solid #3f464d;
+}
+
+.twitter{
+	width: 50%;
+	
+}
+
+
+.facebook a:hover{
 	background-color: #3b5998;
 }
 
-.portfolio:hover{
+.portfolio a:hover{
 	background-color: #e74c3c;
 }
 
-.twitter:hover{
+.twitter a:hover{
 	background-color: #1da1f2;
 }
 
-a:hover{
-	color:white;
+.odkazy a:hover{
+	color:#fff;
 }
 
 
